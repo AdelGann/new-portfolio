@@ -1,7 +1,6 @@
 import React from "react";
 import { Card } from "../ui/card";
 import { Separator } from "../ui/separator";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 interface contractType {
 	id: number;
 	date: string;
@@ -11,11 +10,10 @@ interface contractType {
 interface props {
 	title: string;
 	date: string;
-    imagen?: string
 	contract: contractType[];
 }
 
-export const ExperienceCard = ({ title, imagen, date, contract }: props) => {
+export const ExperienceCard = ({ title, date, contract }: props) => {
 	return (
 		<div>
 			<Card className="p-5 m-2 flex flex-col gap-2 dark:bg-neutral-700">
