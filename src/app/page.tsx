@@ -15,7 +15,7 @@ export default function Home() {
 				<div className="bg-neutral-200 dark:bg-neutral-700 p-20 text-black dark:text-white min-h-screen w-full place-content-center">
 					<div className="flex justify-center flex-col m-2 ">
 						<h3 className="text-xl font-bold">Hi everyone 👋!</h3>
-						<div className="flex gap-2">
+						<div className="flex gap-2 flex-col lg:flex-row">
 							<h1 className="text-4xl font-bold">My name is</h1>
 							<h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 via-cyan-500 to-indigo-500 bg-clip-text text-transparent">
 								Adel Gannem.
