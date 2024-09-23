@@ -28,13 +28,10 @@ export const ProjectCard = ({ title, description, project }: props) => {
 					<Separator className="bg-neutral-400 dark:bg-neutral-200" />
 					<div className="pt-2 m-1">
 						{project.map((row, index) => (
-							<div>
-								<div
-									className="flex pt-4 flex-col gap-1 lg:flex-row lg:gap-10"
-									key={`${row.id}-${index}`}
-								>
+							<div key={`${row.id}-${index}`}>
+								<div className="flex pt-4 flex-col gap-1 lg:flex-row lg:gap-10">
 									<Separator orientation="vertical" />
-									<Image src={row.previuw} alt="An Image of a project" width={200} height={200}/>
+									<Image src={row.previuw} alt="An Image of a project" width={200} height={200} />
 									<h5 className="italic text-sm w-[140px] text-[13px]">{row.technologies}</h5>
 								</div>
 								<div className="flex flex-col justify-between items-center">

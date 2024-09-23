@@ -25,7 +25,7 @@ export default function Home() {
 
 					<div className="p-3 m-5">
 						<h2 className="text-xl font-[100]">Ready to take your project to the next level!</h2>
-						<p> My skills span a range of technologies, to develop everything you'll need. 😃</p>
+						<p> My skills span a range of technologies, to develop everything you&apos;ll need. 😃</p>
 					</div>
 					<Separator className="bg-neutral-400 dark:bg-neutral-200" />
 					<div className="flex justify-center pt-5 items-end">
@@ -150,14 +150,5 @@ const contract = [
 		date: "July 2024 - October 2024",
 		role: "Frontend Developer | React & Typescript",
 		type: "Training Contract",
-	},
-];
-
-const projects = [
-	{
-		id: 1,
-		technologies: "NextJS | TypeScript | TailwindCSS",
-		previuw: "/Templade/Templade.png",
-		deploy: "https://templade.vercel.app",
 	},
 ];
