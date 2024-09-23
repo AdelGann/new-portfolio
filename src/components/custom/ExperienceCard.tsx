@@ -20,10 +20,6 @@ export const ExperienceCard = ({ title, imagen, date, contract }: props) => {
 		<div>
 			<Card className="p-5 m-2 flex flex-col gap-2 dark:bg-neutral-700">
 				<div className="flex gap-4 flex-col lg:flex-row">
-					<Avatar>
-						<AvatarImage src={imagen} />
-						<AvatarFallback>?</AvatarFallback>
-					</Avatar>
 					<div className="flex gap-2 flex-col gap-1">
 						<h2 className="text-xl lg:text-2xl font-bold">{title}</h2>
 						<h2 className="italic text-2lg lg:text-xl">{date}</h2>
