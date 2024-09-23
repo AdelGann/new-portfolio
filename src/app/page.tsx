@@ -85,7 +85,6 @@ export default function Home() {
 					<div>
 						<ExperienceCard
 							title="Sempiterno Group"
-							imagen="/sempiternoProfile.jfif"
 							date="May 2024 - October 2024"
 							contract={contract}
 						/>
