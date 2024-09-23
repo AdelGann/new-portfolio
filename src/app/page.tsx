@@ -42,7 +42,7 @@ export default function Home() {
 				</div>
 				<div className="w-full px-4 block sm:px-16 gap-5 bg-[url('/dev-background.jpg')] bg-no-repeat bg-center bg-cover bg-blend-multiply bg-slate-200 dark:bg-slate-500 min-h-screen ">
 					<div className="flex place-content-center p-10 text-xl lg:text-4xl italic font-bold">
-						<h2>&rsquo;You can dream it, maybe I can develop it&rsquo;</h2>
+						<h2>&quot;You can dream it, maybe I can develop it&quot;</h2>
 					</div>
 				</div>
 			</div>
@@ -76,7 +76,7 @@ export default function Home() {
 				</div>
 			</div>
 			<div className="" id="Experience">
-				<div className="bg-slate-50 dark:bg-stone-700 p-10 text-black dark:text-white w-full ">
+				<div className="bg-slate-50 dark:bg-neutral-600 p-10 text-black dark:text-white w-full ">
 					<div className="flex justify-center flex-col m-2 ">
 						<h3 className="text-2xl font-bold">Experience</h3>
 						<h1 className="text-3xl font-bold">My path over time.</h1>
@@ -104,7 +104,7 @@ export default function Home() {
 				</div>
 			</div>
 			<div className="" id="Contact">
-				<div className="bg-neutral-100 dark:bg-stone-600 p-10 text-black dark:text-white w-full ">
+				<div className="bg-neutral-100 dark:bg-neutral-700 p-10 text-black dark:text-white w-full ">
 					<div className="flex justify-center flex-col m-2 ">
 						<h3 className="text-2xl font-bold">Contact me!</h3>
 						<h1 className="text-xl font-bold">I&apos;m open to new proposals! 😉</h1>
