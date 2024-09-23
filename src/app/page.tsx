@@ -42,7 +42,7 @@ export default function Home() {
 				</div>
 				<div className="w-full px-4 block sm:px-16 gap-5 bg-[url('/dev-background.jpg')] bg-no-repeat bg-center bg-cover bg-blend-multiply bg-slate-200 dark:bg-slate-500 min-h-screen ">
 					<div className="flex place-content-center p-10 text-xl lg:text-4xl italic font-bold">
-						<h2>"You can dream it, maybe I can develop it"</h2>
+						<h2>&rsquo;You can dream it, maybe I can develop it&rsquo;</h2>
 					</div>
 				</div>
 			</div>
@@ -100,11 +100,7 @@ export default function Home() {
 					</div>
 					<Separator className="bg-neutral-400 dark:bg-neutral-200" />
 					<div>
-						<ProjectCard
-							title="Soon"
-							description="Soon"
-							project={[]}
-						/>
+						<ProjectCard title="Soon" description="Soon" project={[]} />
 					</div>
 				</div>
 			</div>
