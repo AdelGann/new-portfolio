@@ -76,7 +76,7 @@ export default function Home() {
 				</div>
 			</div>
 			<div className="" id="Experience">
-				<div className="bg-slate-50 dark:bg-neutral-600 p-10 text-black dark:text-white w-full ">
+				<div className="bg-slate-50 dark:bg-stone-600 p-10 text-black dark:text-white w-full ">
 					<div className="flex justify-center flex-col m-2 ">
 						<h3 className="text-2xl font-bold">Experience</h3>
 						<h1 className="text-3xl font-bold">My path over time.</h1>
@@ -91,6 +91,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
+			<Separator className="bg-neutral-400 dark:bg-neutral-200" />
 			<div className="" id="Projects">
 				<div className="bg-stone-50 dark:bg-stone-700  p-20 text-black dark:text-white w-full ">
 					<div className="flex justify-center flex-col m-2 ">
